@@ -6,7 +6,7 @@
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Vollkorn&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <!-- Custom stylesheet -->
     <link rel="stylesheet" href="../assets/css/style.css">
     <!-- jQuery -->
@@ -16,22 +16,18 @@
 <body>
     <div class="container">
         <div id="header" class="row">
-            <div class="col-md-12 h1 text-center">CRYSTAL COLLECTOR</div>
+            <div class="col-md-12 display-4 text-center">CRYSTAL COLLECTOR</div>
         </div>
         <div id="instructions" class="row">
             <div class="col-md-1"></div>
             <div class="col-md-10">
-                <p>You will be given a random number at the start of the game.</p>
-                <p>There are four crystals below. By clicking on a crystal, you will add a specific amount of points to your total score.</p>
-                <p>You win the game by matching your total score to a random number. You lose the game if your total score goes above the random number.</p>
-                <p>The value of each crystal is hidden from you until you click on it.</p>
-                <p>Each time the game starts, the game will change the value of each crytal.</p>
+                <p>The value of each crystal is hidden from you until you click on it. Try to match the magic number!</p>
             </div>
             <div class="col-md-1"></div>
         </div>
         <div id="numbers" class="row">
             <div class="col-md-3"></div>
-            <div class="col-md-3 lead">Your goal: <span id="goal"></span></div>
+            <div class="col-md-3 lead">Magic Number: <span id="goal"></span></div>
             <div class="col-md-3 lead">Your Score:  <span id="score"></span></div>
             <div class="col-md-3"></div>
         </div>
