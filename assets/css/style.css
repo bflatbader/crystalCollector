@@ -1,3 +1,16 @@
+body {
+    background-image: url('../images/close-up-colors-concrete-1897425.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Vollkorn', serif;
+}
+
+.h1 {
+    font-weight: 700;
+}
+
 #instructions, #numbers, #crystals, #scoreboard {
     padding: 30px;
 }
