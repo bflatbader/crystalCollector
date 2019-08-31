@@ -7,9 +7,11 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-.display-4 {
+.display-1 {
+    line-height: 150px;
     letter-spacing: 5px;
     color: #FBFCFF;
+    font-style: oblique;
 }
 
 #instructions, #numbers, #crystals, #scoreboard {
