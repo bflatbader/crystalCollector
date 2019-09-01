@@ -1,5 +1,5 @@
 body {
-    background-image: url('../images/close-up-colors-concrete-1897425.jpg');
+    background-image: url('../images/blur-close-up-daylight-lighter.jpg');
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -14,10 +14,24 @@ body {
     font-style: oblique;
 }
 
+p {
+    color: #cecece;
+}
+
 #instructions, #numbers, #crystals, #scoreboard {
-    padding: 30px;
+    padding: 40px;
+}
+
+.lead {
+    font-size: 24px;
+    color: #E59F71;
 }
 
 .imgGem {
-    height: 150px;
+    height: 120px;
+    cursor: grab;
+}
+
+.h5 {
+    color: #cecece;
 }
